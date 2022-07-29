@@ -10,13 +10,16 @@ const Navbar = () => {
           <NavLink to="/home">
             Home
           </NavLink>
-          <NavLink to="/contact">
+          <NavLink to="/weeklypage">
             This Week in Fantasy
           </NavLink>
           <NavLink to="/keepers">
             Keepers
           </NavLink>
-          <NavLink to="/sign-up">
+          <NavLink to="/teams">
+            Teams
+          </NavLink>
+          <NavLink to="/rules">
             Rules
           </NavLink>
         </NavMenu>

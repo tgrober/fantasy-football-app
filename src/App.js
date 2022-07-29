@@ -1,16 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { Component } from "react";
-import rp from "request-promise";
+import React from "react";
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
-import Home from './pages';
+import Home from './pages/home';
 import Keepers from './pages/keepers';
 import Blogs from './pages/blogs';
-import SignUp from './pages/signup';
-import Contact from './pages/contact';
+import Rules from './pages/rules';
+import Teams from './pages/teams';
+import WeeklyPage from './pages/weeklypage';
 
 function App() {
 
@@ -18,11 +17,12 @@ function App() {
     <Router>
     <Navbar />
     <Routes>
-        <Route exact path='/home' exact element={<Home />} />
+        <Route exact path='/' element={<Home />} />
         <Route path='/keepers' element={<Keepers/>} />
-        <Route path='/contact' element={<Contact/>} />
+        <Route path='/weeklypage' element={<WeeklyPage/>} />
+        <Route path='/teams' element={<Teams/>} />
         <Route path='/blogs' element={<Blogs/>} />
-        <Route path='/sign-up' element={<SignUp/>} />
+        <Route path='/rules' element={<Rules/>} />
     </Routes>
     </Router>
   );
