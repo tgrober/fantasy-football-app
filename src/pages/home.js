@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import pbLogo from '../images/pbLogo.JPG'
 
-//const weekOne = `9/16/${year}`;
-
 const Home = () => {
 
   const calculateTimeLeft = () => {
