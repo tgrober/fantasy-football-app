@@ -13,8 +13,6 @@ export const teamOwnerMap = {
     "{44CABFE7-66CE-4014-9ECB-5399AC10BC08}" : "Tanner",
     "{D72515DF-9B9F-43C7-A131-D4C362FE006B}" : "Darren",
     "{11409C03-EA14-4A10-98E5-BDD63EC00767}" : "Travis",
-    "{C0D51C57-A041-4F20-951C-57A0412F20CF}" : "Watt",
-    "{FD480663-0144-4913-B068-9D7BCD080936}" : "Fish"
 };
 
 export const previousOwners = {

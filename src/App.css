@@ -102,3 +102,12 @@ h4 {
   border-left: 6px solid green;
   height: 500px;
 }
+
+.timerTitle {
+  text-align:center;
+}
+
+.timerCountdown {
+  text-align:center;
+  color: red;
+}
