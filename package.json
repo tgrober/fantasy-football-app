@@ -32,6 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
@@ -52,5 +53,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://tgrobers.github.io"
+  "homepage": "https://tgrobers.github.io/fantasy-football-app"
 }
